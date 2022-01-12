@@ -42,21 +42,21 @@ using static Nuke.Common.Tools.ReportGenerator.ReportGeneratorTasks;
 [GitHubActions(
     "Release",
     GitHubActionsImage.WindowsLatest,
-    ImportGitHubTokenAs = "GithubToken",
+    EnableGitHubContext = true,
     OnPushBranches = new[] { "master", "main", "release/*" },
     InvokedTargets = new[] { nameof(Release) }
 )]
 [GitHubActions(
     "PR_Validation",
     GitHubActionsImage.WindowsLatest,
-    ImportGitHubTokenAs = "GithubToken",
+    EnableGitHubContext = true,
     OnPullRequestBranches = new[] { "master", "main", "develop", "development", "release/*" },
     InvokedTargets = new[] { nameof(Package) }
 )]
 [GitHubActions(
     "Build",
     GitHubActionsImage.WindowsLatest,
-    ImportGitHubTokenAs = "GithubToken",
+    EnableGitHubContext = true,
     OnPushBranches = new[] { "master", "develop", "release/*" },
     InvokedTargets = new[] { nameof(DeployGeneratedFiles) }
     )]

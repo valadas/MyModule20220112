@@ -41,4 +41,4 @@ jobs:
       - name: Run './build.cmd Package'
         run: ./build.cmd Package
         env:
-          GithubToken: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_CONTEXT: ${{ toJSON(github) }}
