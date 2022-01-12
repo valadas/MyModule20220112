@@ -1,0 +1,2729 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/a/MyModule20220112/MyModule20220112/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Common.Globals.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Common.Globals.html",
+          "hash": "qOZYRx0OMiKmK0FjhK+TAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Common.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Common.html",
+          "hash": "a+kefbLNdf/XBAV89p4I5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Controllers.ItemController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Controllers.ItemController.html",
+          "hash": "6o+jGuG0o49BRkMnLrgo3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Controllers.LocalizationController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Controllers.LocalizationController.html",
+          "hash": "OOuh2PgD0H1BWu2JwjMPyw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Controllers.ModuleApiController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Controllers.ModuleApiController.html",
+          "hash": "pF7Sh/CYAKU932uopRE9aA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Controllers.ServiceRouteMapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Controllers.ServiceRouteMapper.html",
+          "hash": "gxLIlOxhxbo9hs2nZ3zjqw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Controllers.html",
+          "hash": "165lij9Dp3PCMCAOO4Mxvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.DTO.CreateItemDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.DTO.CreateItemDTO.html",
+          "hash": "wu49CB5GZogbjBA2L8ptfw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.DTO.GetItemsPageDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.DTO.GetItemsPageDTO.html",
+          "hash": "1H6zFNMIr+sn795bYtIWKQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.DTO.UpdateItemDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.DTO.UpdateItemDTO.html",
+          "hash": "rOH3Olk2vMsE4lX5tAXbQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.DTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.DTO.html",
+          "hash": "mPunm+AWHsmziFW2BpvSrQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.Entities.BaseEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.Entities.BaseEntity.html",
+          "hash": "V/KJJfKfSQcdZMSLd+h+vA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.Entities.IEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.Entities.IEntity.html",
+          "hash": "7S4Jzc8BNaops+0wJ3FdtQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.Entities.Item.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.Entities.Item.html",
+          "hash": "sJyfqmoQFzk0PttEXAItKQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.Entities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.Entities.html",
+          "hash": "nB1qSjJvVDiM/4AIw63gYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.ModuleDbContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.ModuleDbContext.html",
+          "hash": "jaeYh8fL1QFrr9y/9FmjAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.IRepository-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.IRepository-1.html",
+          "hash": "YmlRewo4G+WblXUiLVsDKQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.html",
+          "hash": "Szt6cXBsh52M7uHPystp6w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.html",
+          "hash": "fIezOkZogmkn2LdOvZFtaw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.html",
+          "hash": "WIImEAdNnrUd5HcGnp34vw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.IItemService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.IItemService.html",
+          "hash": "b4ivwUX+qDcweZB5dg5hCg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.ILocalizationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.ILocalizationService.html",
+          "hash": "5xziFd0HJzxA/XYr2NnhBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.ItemService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.ItemService.html",
+          "hash": "YYzTyD5EwqkfpCpubgVnOg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.LocalizationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.LocalizationService.html",
+          "hash": "s+iy3NYfzLrTjU/nv/iXsg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.html",
+          "hash": "AMAY9dG7gXKegigeku/n/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Startup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Startup.html",
+          "hash": "F4CwHhxNMefurh/FFzLqRw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.ViewModels.ItemViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.ViewModels.ItemViewModel.html",
+          "hash": "tlQgZaVSgY7LeccoZNylaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.ViewModels.ItemsPageViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.ViewModels.ItemsPageViewModel.html",
+          "hash": "b4Ye1wCdHdncep0+QBS9hw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.ViewModels.LocalizationViewModel.ModelValidationInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.ViewModels.LocalizationViewModel.ModelValidationInfo.html",
+          "hash": "iBl88qbC9+OYFp+jUdFrAw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.ViewModels.LocalizationViewModel.UIInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.ViewModels.LocalizationViewModel.UIInfo.html",
+          "hash": "Q3lp/4YUDVSkFFn/cMLe2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.ViewModels.LocalizationViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.ViewModels.LocalizationViewModel.html",
+          "hash": "CJn5k14XC7cthcX7NEmmwQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.ViewModels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.ViewModels.html",
+          "hash": "XCdCR3KfbDbrZNaZFgukEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.html",
+          "hash": "T9tCUMtHWtcJSlxqxE0Cdg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "x79jBtSKf8BL88vJ+hxKeg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "UidNotFound"
+      ],
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "Oarg6Rm27NcRQ3CheeiOAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "articles/git.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/git.html",
+          "hash": "og19EAme0gksdS+FfNe1GA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "KIEzw+c4/yJcWMa3hGc4rw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/project-architecture.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/project-architecture.html",
+          "hash": "BOiXcEXO3tq1Lo50FDLrCw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "E2zehL9R44b3qURfeD5rTA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.apiexception._constructor_.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.apiexception._constructor_.html",
+          "hash": "OmQFOjdZhFfsMtvm9qPBfg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.apiexception.headers.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.apiexception.headers.html",
+          "hash": "Vo11lxVKJDvq7Lo54lEFNg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.apiexception.isapiexception.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.apiexception.isapiexception.html",
+          "hash": "n65v6rdOzSirr1nJzVijew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.apiexception.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.apiexception.html",
+          "hash": "B5nFFLS8JA0l61369TfTUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.apiexception.message.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.apiexception.message.html",
+          "hash": "JsW88X9UhEZVgh6rlfiYlA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.apiexception.response.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.apiexception.response.html",
+          "hash": "7iwUAj7DdM6UklJfDoElDw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.apiexception.result.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.apiexception.result.html",
+          "hash": "p+GOPk94rofMIbyDcVa3zg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.apiexception.status.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.apiexception.status.html",
+          "hash": "uuhQ44u3JYqzTIhRateePg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.argumentexception._constructor_.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.argumentexception._constructor_.html",
+          "hash": "vlya8gXy5GgD4IMCY5zQLQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.argumentexception.fromjs.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.argumentexception.fromjs.html",
+          "hash": "BIoS2gmKtcDy0wHrQHEkzw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.argumentexception.init.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.argumentexception.init.html",
+          "hash": "xpr3w/nsHidtjY10w/uiLA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.argumentexception.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.argumentexception.html",
+          "hash": "1bCOn9tOHp5D1dj4Ju+V4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.argumentexception.message.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.argumentexception.message.html",
+          "hash": "REAgCEWIt+ox5mi8Bbybew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.argumentexception.paramname.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.argumentexception.paramname.html",
+          "hash": "HI1yMZign+6Rgu3oC55Kag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.argumentexception.tojson.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.argumentexception.tojson.html",
+          "hash": "SLlg1KsoHLfPyBPyYMDwaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.clientbase._constructor_.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.clientbase._constructor_.html",
+          "hash": "QikEulqBeO/MDnVXYdVCrQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.clientbase.getbaseurl.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.clientbase.getbaseurl.html",
+          "hash": "pOhpVdV/H6SnOkB16ONTnQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.clientbase.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.clientbase.html",
+          "hash": "RQv4LKe+ln+AjQoM/R85bA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.clientbase.transformoptions.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.clientbase.transformoptions.html",
+          "hash": "6Ov5AtdgAqD8J/tD6p4tAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.configurerequest.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.configurerequest.html",
+          "hash": "P9JW/gEIfYc0XhdMXHYTpw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.configurerequest.moduleid.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.configurerequest.moduleid.html",
+          "hash": "fEokFxnMgCn2bRUBGD9DAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.createitemdto._constructor_.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.createitemdto._constructor_.html",
+          "hash": "Ti7AQ1hmyb6djMk9t79dWA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.createitemdto.description.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.createitemdto.description.html",
+          "hash": "vvdjlhTPZB50Mo8UFdICSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.createitemdto.fromjs.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.createitemdto.fromjs.html",
+          "hash": "tdVvTPwjwUwxJOH85t5mVA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.createitemdto.init.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.createitemdto.init.html",
+          "hash": "AP1hB9LhTinQg9l1utHoYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.createitemdto.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.createitemdto.html",
+          "hash": "HqEzeKCreQ7Uo+AqAnNsvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.createitemdto.name.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.createitemdto.name.html",
+          "hash": "VfjNurrpMXAU+ZVuE3LmWA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.createitemdto.tojson.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.createitemdto.tojson.html",
+          "hash": "jrRVZU9wFOXMBro+PQljjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.exception._constructor_.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.exception._constructor_.html",
+          "hash": "z8wB9UfZloK00Hib0goKSg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.exception.fromjs.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.exception.fromjs.html",
+          "hash": "er66h2u26EBlDT2nXKwp/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.exception.init.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.exception.init.html",
+          "hash": "t5Frjz87gL0jM55ma0yX5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.exception.innerexception.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.exception.innerexception.html",
+          "hash": "NZ1pNKtkLK8L2iHI0Y2OhA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.exception.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.exception.html",
+          "hash": "ZhYXK+orGTU74TeIEzB37Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.exception.message.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.exception.message.html",
+          "hash": "ZIc9/xU1Bwn0OtuYeDjUog=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.exception.source.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.exception.source.html",
+          "hash": "t9lr7VOe2vWFr2pCX5mqEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.exception.stacktrace.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.exception.stacktrace.html",
+          "hash": "ECll2BsB6lTw0BJjO1Zjvw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.exception.tojson.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.exception.tojson.html",
+          "hash": "faavMLxT8dJRp6Y6mP6i0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.iargumentexception.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.iargumentexception.html",
+          "hash": "PwF2gYIgQ20Eu9BG1B52hg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.iargumentexception.message.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.iargumentexception.message.html",
+          "hash": "ohD4s0njK++mGS7itXj89g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.iargumentexception.paramname.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.iargumentexception.paramname.html",
+          "hash": "OjiIl8mkJsiB5KJaRgcMVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.icreateitemdto.description.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.icreateitemdto.description.html",
+          "hash": "7Q4J4pZO0LcAb9YtVpsQdg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.icreateitemdto.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.icreateitemdto.html",
+          "hash": "IEKtZ/KfDQkJ/B+3Au844w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.icreateitemdto.name.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.icreateitemdto.name.html",
+          "hash": "f14tf1bBNDXIzE8b5nG69w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.iexception.innerexception.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.iexception.innerexception.html",
+          "hash": "0w3Cr1xtHxgXc/1y77Wgvw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.iexception.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.iexception.html",
+          "hash": "d29Z0BPZXFQktl9tFhWh9Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.iexception.message.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.iexception.message.html",
+          "hash": "jMfq/OvekhVQiZ3AWzlClg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.iexception.source.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.iexception.source.html",
+          "hash": "BnW6dAIbhPL65P2hLpYqQQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.iexception.stacktrace.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.iexception.stacktrace.html",
+          "hash": "lETg8/C5kXcW6f3LAaV7tA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.iitemspageviewmodel.items.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.iitemspageviewmodel.items.html",
+          "hash": "8sBxpDdX/ef109wQig9V0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.iitemspageviewmodel.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.iitemspageviewmodel.html",
+          "hash": "WkKg78C/w28iJvyea+W34A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.iitemspageviewmodel.page.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.iitemspageviewmodel.page.html",
+          "hash": "3DnHrbxA3jE7D4poRCxPig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.iitemspageviewmodel.pagecount.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.iitemspageviewmodel.pagecount.html",
+          "hash": "PKXPkeuH9bh112u4kdgHtQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.iitemspageviewmodel.resultcount.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.iitemspageviewmodel.resultcount.html",
+          "hash": "pD+0zruRJy995Ve4ETOXZw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.iitemviewmodel.description.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.iitemviewmodel.description.html",
+          "hash": "bpCIz6L0h09Naf9u3ceUKA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.iitemviewmodel.id.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.iitemviewmodel.id.html",
+          "hash": "rkI97RU3EKpH32faTTuQDw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.iitemviewmodel.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.iitemviewmodel.html",
+          "hash": "ypF7UL4HA+n6ACEr34WHPg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.iitemviewmodel.name.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.iitemviewmodel.name.html",
+          "hash": "wo3gQsSfH/HRjsxHorKLGg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.ilocalizationviewmodel.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.ilocalizationviewmodel.html",
+          "hash": "ISEJ5E4vtvaZ+lUHT4h3Sw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.ilocalizationviewmodel.modelvalidation.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.ilocalizationviewmodel.modelvalidation.html",
+          "hash": "upsNlKooFfUQZQ9ZCKhmcg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.ilocalizationviewmodel.ui.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.ilocalizationviewmodel.ui.html",
+          "hash": "J4OlvmvIJEGMHQaXdZAtvQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.imodelvalidationinfo.idgreaterthanzero.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.imodelvalidationinfo.idgreaterthanzero.html",
+          "hash": "E7TdOuYcZp8YjsAAQ0PiwA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.imodelvalidationinfo.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.imodelvalidationinfo.html",
+          "hash": "3lpUznv6RPiiBJE5zBWvEQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.imodelvalidationinfo.namerequired.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.imodelvalidationinfo.namerequired.html",
+          "hash": "SXIM26txFbtPkfpZIDtmRg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.isystemexception.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.isystemexception.html",
+          "hash": "cSE2kKBSBG+RgEYviDcjVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.itemclient._constructor_.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.itemclient._constructor_.html",
+          "hash": "6k1h2Grp7Q2gN1vWDcZTpA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.itemclient.createitem.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.itemclient.createitem.html",
+          "hash": "8qevjP4DiNWFNzkyu8wCBg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.itemclient.deleteitem.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.itemclient.deleteitem.html",
+          "hash": "MONIH/Ay/Xe+8EX4tApfYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.itemclient.getitemspage.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.itemclient.getitemspage.html",
+          "hash": "gL6nnFxdbQeibbn0x9PX4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.itemclient.jsonparsereviver.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.itemclient.jsonparsereviver.html",
+          "hash": "4aEMlnZMjK3RR5HdHdYWUA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.itemclient.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.itemclient.html",
+          "hash": "jlOuFEzOPgjg1bdcw1sVMQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.itemclient.processcreateitem.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.itemclient.processcreateitem.html",
+          "hash": "/nWq2AOENVNOzTD5idLj+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.itemclient.processdeleteitem.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.itemclient.processdeleteitem.html",
+          "hash": "+1/uu2S9b2YSeN7KhwTL6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.itemclient.processgetitemspage.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.itemclient.processgetitemspage.html",
+          "hash": "RWrdJHMbXiWb9TujplaVWA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.itemclient.processupdateitem.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.itemclient.processupdateitem.html",
+          "hash": "aL1wAISQSYDXaNOp5tcieg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.itemclient.processusercanedit.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.itemclient.processusercanedit.html",
+          "hash": "iuSnyWjnYTR1XSJYk/DmVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.itemclient.updateitem.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.itemclient.updateitem.html",
+          "hash": "lwCki+56sXC07QeLRLzjFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.itemclient.usercanedit.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.itemclient.usercanedit.html",
+          "hash": "W9EYhRSb3PSjx7nim1KBwg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.itemspageviewmodel._constructor_.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.itemspageviewmodel._constructor_.html",
+          "hash": "TZN7+veeaUaFf/qja10ErA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.itemspageviewmodel.fromjs.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.itemspageviewmodel.fromjs.html",
+          "hash": "m4NCt3+eaZvvwoM0Rx8Ikw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.itemspageviewmodel.init.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.itemspageviewmodel.init.html",
+          "hash": "Trh4Abba/CJT8UC8d2lwNA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.itemspageviewmodel.items.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.itemspageviewmodel.items.html",
+          "hash": "QjhiifqNaOaE8DddxBHZuA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.itemspageviewmodel.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.itemspageviewmodel.html",
+          "hash": "xJfWqSqtcV5gzE7RBkm3KA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.itemspageviewmodel.page.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.itemspageviewmodel.page.html",
+          "hash": "ukTXCmTQqQ1MXPz0Ppt9zA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.itemspageviewmodel.pagecount.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.itemspageviewmodel.pagecount.html",
+          "hash": "bAt8Z2teDXr5TJXsFbMSTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.itemspageviewmodel.resultcount.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.itemspageviewmodel.resultcount.html",
+          "hash": "Fsbtf1KBsTZBfyFFAovZiw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.itemspageviewmodel.tojson.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.itemspageviewmodel.tojson.html",
+          "hash": "/225CJ126KwUCTHSruL07Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.itemviewmodel._constructor_.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.itemviewmodel._constructor_.html",
+          "hash": "2myibQhvl885M+TKmTK3oQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.itemviewmodel.description.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.itemviewmodel.description.html",
+          "hash": "acoTsed9ojmseoyKwUw/0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.itemviewmodel.fromjs.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.itemviewmodel.fromjs.html",
+          "hash": "ZFvZlIh4JX17sZpb7bkXDw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.itemviewmodel.id.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.itemviewmodel.id.html",
+          "hash": "Zx+87slE3ByAGs5n7ZerkQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.itemviewmodel.init.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.itemviewmodel.init.html",
+          "hash": "1R6ACm6dwK+DVbHRBRI7hQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.itemviewmodel.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.itemviewmodel.html",
+          "hash": "DYPp76Z4p2ifZbI8zZtweg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.itemviewmodel.name.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.itemviewmodel.name.html",
+          "hash": "GxVIPfffTNDsPQk4coyxew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.itemviewmodel.tojson.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.itemviewmodel.tojson.html",
+          "hash": "n4Q41muKg5i8dzgJ/+UKBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.iuiinfo.additem.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.iuiinfo.additem.html",
+          "hash": "1TFsRe8GQhlHPSc4SEzoqQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.iuiinfo.cancel.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.iuiinfo.cancel.html",
+          "hash": "xILHT9ZwpLRN+FTUZ82uPg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.iuiinfo.create.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.iuiinfo.create.html",
+          "hash": "u807xAI96tZ0uWh4ILxczg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.iuiinfo.delete.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.iuiinfo.delete.html",
+          "hash": "cdBJQx0BO8v2PuNe1hs2jA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.iuiinfo.deleteitemconfirm.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.iuiinfo.deleteitemconfirm.html",
+          "hash": "3zc6bc9GACnG8fe1Skv3vg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.iuiinfo.description.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.iuiinfo.description.html",
+          "hash": "cE4BmvWBPFlLlpavfAzDEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.iuiinfo.edit.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.iuiinfo.edit.html",
+          "hash": "6MHEvbVN3q4xLeUWtiYTuA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.iuiinfo.loadmore.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.iuiinfo.loadmore.html",
+          "hash": "k8yS66xAns0qjgnjJQ1Z4Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.iuiinfo.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.iuiinfo.html",
+          "hash": "91e/4w9/qDZL6vubQIkZpQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.iuiinfo.name.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.iuiinfo.name.html",
+          "hash": "djs+yt/z5Csj/4aP+1F2Vg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.iuiinfo.no.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.iuiinfo.no.html",
+          "hash": "6c1iv+d7gOwDK5EI8HRj0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.iuiinfo.save.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.iuiinfo.save.html",
+          "hash": "8aqZkU6oXMEIWR8HHmhC+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.iuiinfo.searchplaceholder.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.iuiinfo.searchplaceholder.html",
+          "hash": "Ggr6/UA+NiyRIBIPja30RQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.iuiinfo.shownitems.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.iuiinfo.shownitems.html",
+          "hash": "6vx82INVSq6OVk/jzI2OXg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.iuiinfo.yes.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.iuiinfo.yes.html",
+          "hash": "ZRJ4NqwUbSLbU1cCNIVoTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.iupdateitemdto.id.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.iupdateitemdto.id.html",
+          "hash": "5c6pg80+w5C2ibpqV2MBMQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.iupdateitemdto.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.iupdateitemdto.html",
+          "hash": "Jb3ttO/sAD7+AC7yjA35/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.localizationclient._constructor_.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.localizationclient._constructor_.html",
+          "hash": "Qcn1LRhitnB4yxr110wdaw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.localizationclient.getlocalization.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.localizationclient.getlocalization.html",
+          "hash": "p2NhrYErJ5J66WsZoPVdEQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.localizationclient.jsonparsereviver.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.localizationclient.jsonparsereviver.html",
+          "hash": "ldihkne/Eh4o9G16RYZEkg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.localizationclient.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.localizationclient.html",
+          "hash": "lRx3OapU7uRqZwudLldJSA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.localizationclient.processgetlocalization.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.localizationclient.processgetlocalization.html",
+          "hash": "Lz6127XU35a4FDydNX3GMQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.localizationviewmodel._constructor_.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.localizationviewmodel._constructor_.html",
+          "hash": "tXEQpmYE2fbx5Mk84XhH8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.localizationviewmodel.fromjs.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.localizationviewmodel.fromjs.html",
+          "hash": "W1mefx4rIxGY80NSBYoDWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.localizationviewmodel.init.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.localizationviewmodel.init.html",
+          "hash": "ZA21smjO1cmviaEFZ7a2RQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.localizationviewmodel.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.localizationviewmodel.html",
+          "hash": "eV/fTZPlm9wfKa02xSaVPg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.localizationviewmodel.modelvalidation.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.localizationviewmodel.modelvalidation.html",
+          "hash": "vDiCRc9YHdEoVVnKZhObPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.localizationviewmodel.tojson.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.localizationviewmodel.tojson.html",
+          "hash": "4G2+y349rLM1fEckhQ1uOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.localizationviewmodel.ui.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.localizationviewmodel.ui.html",
+          "hash": "3MDA0imhTXlH7s1sCeOtkw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.html",
+          "hash": "yYIBAnDG6Gn07c5/HbFIdg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.modelvalidationinfo._constructor_.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.modelvalidationinfo._constructor_.html",
+          "hash": "uw9CIecAGyVmROw/KuSNXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.modelvalidationinfo.fromjs.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.modelvalidationinfo.fromjs.html",
+          "hash": "2C+dskslGd2bTEP4hbPjTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.modelvalidationinfo.idgreaterthanzero.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.modelvalidationinfo.idgreaterthanzero.html",
+          "hash": "5Bi0l5TSOHOzDI3An+Ob/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.modelvalidationinfo.init.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.modelvalidationinfo.init.html",
+          "hash": "fe0p8Mfn7FMaNsSUEqmpCQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.modelvalidationinfo.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.modelvalidationinfo.html",
+          "hash": "82ynV3x0QcaVMXyuKQ5Rig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.modelvalidationinfo.namerequired.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.modelvalidationinfo.namerequired.html",
+          "hash": "v7mfgpv23gQnYrmiM05zkA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.modelvalidationinfo.tojson.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.modelvalidationinfo.tojson.html",
+          "hash": "fFzc3iN14/qmbiRRapTrzA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.systemexception._constructor_.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.systemexception._constructor_.html",
+          "hash": "E7Pi3RBwbEwbYPzWczxZUw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.systemexception.fromjs.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.systemexception.fromjs.html",
+          "hash": "dxoyuaQxDEk3jpBGr96aGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.systemexception.init.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.systemexception.init.html",
+          "hash": "KF8dROwsuktQMrxcb4VAZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.systemexception.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.systemexception.html",
+          "hash": "lMPAubwi8+LGtIyUmD33Fg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.systemexception.tojson.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.systemexception.tojson.html",
+          "hash": "4A+7AvmAK3ty5LYjqsDxxA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.uiinfo._constructor_.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.uiinfo._constructor_.html",
+          "hash": "r08QzjtjxCfLZ++g4/K6Ug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.uiinfo.additem.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.uiinfo.additem.html",
+          "hash": "ndwctQ7vftE+qJCt6LlA4A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.uiinfo.cancel.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.uiinfo.cancel.html",
+          "hash": "IQWVbCrC7DoPq7tlKGk4WQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.uiinfo.create.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.uiinfo.create.html",
+          "hash": "1Mp6gztsJLgKJFk5hBg5wg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.uiinfo.delete.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.uiinfo.delete.html",
+          "hash": "8jhLA1MZECDSrY7B/eqc/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.uiinfo.deleteitemconfirm.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.uiinfo.deleteitemconfirm.html",
+          "hash": "y5whW+DgrqmmLKoys6wZuw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.uiinfo.description.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.uiinfo.description.html",
+          "hash": "w+lKqHlT4dJrcyb5fLKZag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.uiinfo.edit.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.uiinfo.edit.html",
+          "hash": "YUofIzPCPracS8ilSLtgvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.uiinfo.fromjs.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.uiinfo.fromjs.html",
+          "hash": "qxt9+hOuD51TS0GXrveLLw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.uiinfo.init.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.uiinfo.init.html",
+          "hash": "3n8DQ/DRY5KrIQ3yFl8UaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.uiinfo.loadmore.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.uiinfo.loadmore.html",
+          "hash": "uAnAVzAceKspxlmz2yV23g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.uiinfo.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.uiinfo.html",
+          "hash": "j/9Z+wc5NjvOmVowk+jiBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.uiinfo.name.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.uiinfo.name.html",
+          "hash": "KY2PLq1TO5rWsn/9Qw1JXw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.uiinfo.no.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.uiinfo.no.html",
+          "hash": "4r45Jr2maz/yUYoteTOzXw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.uiinfo.save.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.uiinfo.save.html",
+          "hash": "3KYUT9IYESZbOImBCA+MIQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.uiinfo.searchplaceholder.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.uiinfo.searchplaceholder.html",
+          "hash": "iXBp5YshfEbDPe7UF0hqlA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.uiinfo.shownitems.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.uiinfo.shownitems.html",
+          "hash": "IHq/cmXR/tx/KU3eBVdKlw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.uiinfo.tojson.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.uiinfo.tojson.html",
+          "hash": "HOmttKk2j98ILGvK1CUYqQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.uiinfo.yes.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.uiinfo.yes.html",
+          "hash": "6eaVputyIO5DcP1TDqg9Bw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.updateitemdto._constructor_.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.updateitemdto._constructor_.html",
+          "hash": "TEjTB8CDRLAo+VM2oT8w+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.updateitemdto.fromjs.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.updateitemdto.fromjs.html",
+          "hash": "Dz5DlFjnV9OL5DftzUk2ng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.updateitemdto.id.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.updateitemdto.id.html",
+          "hash": "pySHcvd1AYa5ucee4K8G9w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.updateitemdto.init.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.updateitemdto.init.html",
+          "hash": "NgEfElmV095MuDjRXvydsQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.updateitemdto.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.updateitemdto.html",
+          "hash": "HsJHz+GqRodxKMsm9Eamng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-mymodule.updateitemdto.tojson.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-mymodule.updateitemdto.tojson.html",
+          "hash": "TOovxQtdFtz8FlAz0l9/BQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/index.html",
+          "hash": "7Zj+ixGs6/0elnX97xgglg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "client/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/toc.html",
+          "hash": "yU+Fp6vzeuTi8RXoNuT6FA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "components/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "components/index.html",
+          "hash": "44BCvLyeSGPCA1xKUiJCdw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "components/my-component.md",
+      "output": {
+        ".html": {
+          "relative_path": "components/my-component.html",
+          "hash": "pTUnLeJKfttchlPJ87P9Pw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "components/my-create.md",
+      "output": {
+        ".html": {
+          "relative_path": "components/my-create.html",
+          "hash": "LpUFJ8apL0Uifsl+rX8+Ng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "components/my-edit.md",
+      "output": {
+        ".html": {
+          "relative_path": "components/my-edit.html",
+          "hash": "2IsXM0CxeDeTbSBadeWYFg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "components/my-item-details.md",
+      "output": {
+        ".html": {
+          "relative_path": "components/my-item-details.html",
+          "hash": "gqYsLGJuH9YddTIscJA0Sw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "components/my-items-list.md",
+      "output": {
+        ".html": {
+          "relative_path": "components/my-items-list.html",
+          "hash": "Bsn9ge/1Z0lG235f/zEzHQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "components/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "components/toc.html",
+          "hash": "cTtxrMM5YtDOIo1mlNjFkA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Package.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/Package.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/create-beta-release.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/create-beta-release.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/create-develop-branch.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/create-develop-branch.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/create-pull-request.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/create-pull-request.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/create-release.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/create-release.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/initial-commit.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/initial-commit.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/install-module.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/install-module.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "wFG6PndPKiwb4bZ0dJt00w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "rest/rest-api.md",
+      "output": {
+        ".html": {
+          "relative_path": "rest/rest-api.html",
+          "hash": "x321c9W1wAs8crdwDhh0Jw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "rest/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "rest/toc.html",
+          "hash": "G9YMZ1tBN6dUh3wjAxz+lg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "vJDvCT6x/U2SiHeda+VXxw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 174,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 33,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
