@@ -42,21 +42,21 @@ using static Nuke.Common.Tools.ReportGenerator.ReportGeneratorTasks;
 [GitHubActions(
     "Release",
     GitHubActionsImage.WindowsLatest,
-    ImportGitHubTokenAs = "GithubToken",
+    EnableGitHubContext = true,
     OnPushBranches = new[] { "master", "main", "release/*" },
     InvokedTargets = new[] { nameof(Release) }
 )]
 [GitHubActions(
     "PR_Validation",
     GitHubActionsImage.WindowsLatest,
-    ImportGitHubTokenAs = "GithubToken",
+    EnableGitHubContext = true,
     OnPullRequestBranches = new[] { "master", "main", "develop", "development", "release/*" },
     InvokedTargets = new[] { nameof(Package) }
 )]
 [GitHubActions(
     "Build",
     GitHubActionsImage.WindowsLatest,
-    ImportGitHubTokenAs = "GithubToken",
+    EnableGitHubContext = true,
     OnPushBranches = new[] { "master", "develop", "release/*" },
     InvokedTargets = new[] { nameof(DeployGeneratedFiles) }
     )]
@@ -78,7 +78,7 @@ internal class Build : NukeBuild
 
     [Solution] readonly Solution Solution;
     [GitRepository] readonly GitRepository GitRepository;
-    [GitVersion(Framework = "netcoreapp3.1", UpdateAssemblyInfo = false, NoFetch = true)] readonly GitVersion GitVersion;
+    [GitVersion(Framework = "net6.0", UpdateAssemblyInfo = false, NoFetch = true)] readonly GitVersion GitVersion;
 
     AbsolutePath ArtifactsDirectory => RootDirectory / "artifacts";
     AbsolutePath InstallDirectory => RootDirectory.Parent.Parent / "Install" / "Module";
@@ -107,7 +107,7 @@ internal class Build : NukeBuild
         {
             if (GitRepository != null)
             {
-                Logger.Info($"We are on branch {GitRepository.Branch}");
+                Serilog.Log.Information($"We are on branch {GitRepository.Branch}");
                 var repositoryFiles = GlobFiles(RootDirectory, "README.md", "build/**/git.html", "**/articles/git.md");
                 repositoryFiles.ForEach(f =>
                 {
@@ -124,11 +124,9 @@ internal class Build : NukeBuild
         .DependsOn(UpdateTokens)
         .Executes(() =>
         {
-            Logger.Info($"Branch name is {GitRepository.Branch}");
-            using (var group = Logger.Block("GitVersion"))
-            {
-                Logger.Info(SerializationTasks.JsonSerialize(GitVersion));
-            }
+            Serilog.Log.Information($"Branch name is {GitRepository.Branch}");
+            Serilog.Log.Information(SerializationTasks.JsonSerialize(GitVersion));
+            
         });
 
     Target Clean => _ => _
@@ -280,12 +278,12 @@ internal class Build : NukeBuild
                     var version = package.Attributes["version"];
                     if (version != null)
                     {
-                        Logger.Normal($"Found package {package.Attributes["name"].Value} with version {version.Value}");
+                        Serilog.Log.Information($"Found package {package.Attributes["name"].Value} with version {version.Value}");
                         version.Value =
                             GitVersion != null
                             ? $"{GitVersion.Major.ToString("00", CultureInfo.InvariantCulture)}.{GitVersion.Minor.ToString("00", CultureInfo.InvariantCulture)}.{GitVersion.Patch.ToString("00", CultureInfo.InvariantCulture)}"
                             : "00.01.00";
-                        Logger.Normal($"Updated package {package.Attributes["name"].Value} to version {version.Value}");
+                        Serilog.Log.Information($"Updated package {package.Attributes["name"].Value} to version {version.Value}");
 
                         var components = package.SelectNodes("components/component");
                         foreach (XmlNode component in components)
@@ -302,7 +300,7 @@ internal class Build : NukeBuild
                     }
                 }
                 doc.Save(manifest);
-                Logger.Normal($"Saved {manifest}");
+                Serilog.Log.Information($"Saved {manifest}");
             }
         });
 
@@ -334,7 +332,7 @@ internal class Build : NukeBuild
                 var content = ReadAllText(view);
                 content = content.Replace(devViewsPath, prodViewsPath, StringComparison.OrdinalIgnoreCase);
                 WriteAllText(view, content, System.Text.Encoding.UTF8);
-                Logger.Info("Set scripts path to {0} in {1}", prodViewsPath, view);
+                Serilog.Log.Information("Set scripts path to {0} in {1}", prodViewsPath, view);
             }
         });
 
@@ -348,7 +346,7 @@ internal class Build : NukeBuild
                 var content = ReadAllText(view);
                 content = content.Replace(prodViewsPath, devViewsPath, StringComparison.OrdinalIgnoreCase);
                 WriteAllText(view, content, System.Text.Encoding.UTF8);
-                Logger.Info("Set scripts path to {0} in {1}", devViewsPath, view);
+                Serilog.Log.Information("Set scripts path to {0} in {1}", devViewsPath, view);
             }
         });
 
@@ -368,17 +366,17 @@ internal class Build : NukeBuild
             {
                 if (type == OutputType.Std)
                 {
-                    Logger.Info(output);
+                    Serilog.Log.Information(output);
                 }
                 if (type == OutputType.Err)
                 {
                     if (output.StartsWith("npm WARN", StringComparison.OrdinalIgnoreCase))
                     {
-                        Logger.Warn(output);
+                        Serilog.Log.Warning(output);
                     }
                     else
                     {
-                        Logger.Error(output);
+                        Serilog.Log.Error(output);
                     }
                 }
             };
@@ -415,7 +413,7 @@ internal class Build : NukeBuild
         .DependsOn(UpdateTokens)
         .Executes(() =>
         {
-            Logger.Info($"We are on branch {GitRepository.Branch}");
+            Serilog.Log.Information($"We are on branch {GitRepository.Branch}");
             if (GitRepository.IsOnMainOrMasterBranch())
             {
                 gitHubClient = new GitHubClient(new ProductHeaderValue("Nuke"));
@@ -438,7 +436,7 @@ internal class Build : NukeBuild
                 .Where(m => m.Title == GitVersion.MajorMinorPatch).FirstOrDefault();
             if (milestone == null)
             {
-                Logger.Warn("Milestone not found for this version");
+                Serilog.Log.Warning("Milestone not found for this version");
                 releaseNotes = "No release notes for this version.";
                 return;
             }
@@ -479,10 +477,7 @@ internal class Build : NukeBuild
                 .Append(File.ReadAllText(ArtifactsDirectory / "checksums.md"));
 
             releaseNotes = releaseNotesBuilder.ToString();
-            using (Logger.Block("Release Notes"))
-            {
-                Logger.Info(releaseNotes);
-            }
+            Serilog.Log.Information(releaseNotes);
         });
 
     Target TagRelease => _ => _
@@ -495,7 +490,7 @@ internal class Build : NukeBuild
         {
             Git($"remote set-url origin https://{GitRepository.GetGitHubOwner()}:{GithubToken}@github.com/{GitRepository.GetGitHubOwner()}/{GitRepository.GetGitHubName()}.git");
             var version = GitRepository.IsOnMainOrMasterBranch() ? GitVersion.MajorMinorPatch : GitVersion.SemVer;
-            GitLogger = (type, output) => Logger.Info(output);
+            GitLogger = (type, output) => Serilog.Log.Information(output);
             Git($"tag v{version}");
             Git($"push --tags");
         });
@@ -522,7 +517,7 @@ internal class Build : NukeBuild
                 GitRepository.GetGitHubOwner(),
                 GitRepository.GetGitHubName(),
                 newRelease).Result;
-            Logger.Info($"{release.Name} released !");
+            Serilog.Log.Information($"{release.Name} released !");
 
             var artifactFile = GlobFiles(RootDirectory, "artifacts/**/*.zip").FirstOrDefault();
             var artifact = File.OpenRead(artifactFile);
@@ -534,7 +529,7 @@ internal class Build : NukeBuild
                 RawData = artifact
             };
             var asset = gitHubClient.Repository.Release.UploadAsset(release, assetUpload).Result;
-            Logger.Info($"Asset {asset.Name} published at {asset.BrowserDownloadUrl}");
+            Serilog.Log.Information($"Asset {asset.Name} published at {asset.BrowserDownloadUrl}");
         });
 
     /// <summary>
@@ -580,8 +575,8 @@ internal class Build : NukeBuild
         connectionStringsNode.AppendChild(importedNode);
         appConfig.Save(appConfigPath);
 
-        Logger.Info("Generated {0} from {1}", appConfigPath, webConfigPath);
-        Logger.Info("This file is local as it could contain credentials, it should not be committed to the repository.");
+        Serilog.Log.Information("Generated {0} from {1}", appConfigPath, webConfigPath);
+        Serilog.Log.Information("This file is local as it could contain credentials, it should not be committed to the repository.");
     });
 
     /// <summary>
@@ -667,7 +662,7 @@ internal class Build : NukeBuild
 
             ResetDocs();
 
-            Logger.Success("Packaging succeeded!");
+            Serilog.Log.Information("Packaging succeeded!");
         });
 
     Target Swagger => _ => _
@@ -888,7 +883,14 @@ internal class Build : NukeBuild
     {
         if (GitRepository != null && IsLocalBuild)
         {
-            Git("checkout -q HEAD -- docs", workingDirectory: RootDirectory);
+            try
+            {
+                Git("checkout -q HEAD -- docs", workingDirectory: RootDirectory);
+            }
+            catch (Exception)
+            {
+                // Ignored on purpose, if this fails, we just don't have a docs folder so everything is ok.
+            }
         }
     }
 }

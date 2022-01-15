@@ -39,4 +39,4 @@ jobs:
       - name: Run './build.cmd DeployGeneratedFiles'
         run: ./build.cmd DeployGeneratedFiles
         env:
-          GithubToken: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_CONTEXT: ${{ toJSON(github) }}
