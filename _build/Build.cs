@@ -78,7 +78,7 @@ internal class Build : NukeBuild
 
     [Solution] readonly Solution Solution;
     [GitRepository] readonly GitRepository GitRepository;
-    [GitVersion(Framework = "netcoreapp3.1", UpdateAssemblyInfo = false, NoFetch = true)] readonly GitVersion GitVersion;
+    [GitVersion(Framework = "net6.0", UpdateAssemblyInfo = false, NoFetch = true)] readonly GitVersion GitVersion;
 
     AbsolutePath ArtifactsDirectory => RootDirectory / "artifacts";
     AbsolutePath InstallDirectory => RootDirectory.Parent.Parent / "Install" / "Module";
@@ -883,7 +883,14 @@ internal class Build : NukeBuild
     {
         if (GitRepository != null && IsLocalBuild)
         {
-            Git("checkout -q HEAD -- docs", workingDirectory: RootDirectory);
+            try
+            {
+                Git("checkout -q HEAD -- docs", workingDirectory: RootDirectory);
+            }
+            catch (Exception)
+            {
+                // Ignored on purpose, if this fails, we just don't have a docs folder so everything is ok.
+            }
         }
     }
 }
